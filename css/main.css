@@ -543,13 +543,13 @@ h5 {
 
 @media (max-width: 992.98px) {
   .container .my-projects .project-item .projects-link {
-    flex: 0 1 45%;
+    flex: 0 1 50%;
   }
 }
 
 @media (max-width: 767.98px) {
   .container .my-projects .project-item .projects-link {
-    flex: 0 1 45%;
+    flex: 1 1 60%;
   }
 }
 
@@ -572,7 +572,7 @@ h5 {
 }
 
 .container .my-projects .project-item .project-tech {
-  flex: 0 0 32%;
+  flex: 0 0 42%;
 }
 
 @media (max-width: 767.98px) {
