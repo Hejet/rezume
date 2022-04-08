@@ -1,0 +1,1185 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  position: relative;
+  width: 100%;
+  color: #000;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: "Montserrat";
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #595959;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #595959;
+}
+
+ul[class],
+ol[class] {
+  margin: 0;
+  padding: 0;
+}
+
+ul[class] li[class],
+ol[class] li[class] {
+  margin: 0;
+}
+
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px 20px;
+}
+
+@media (max-width: 992.98px) {
+  body {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  body {
+    padding: 15px 5px;
+  }
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 45px;
+}
+
+@media (max-width: 1212px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992.98px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (max-width: 767.98px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@media (max-width: 767.98px) {
+  h3 {
+    font-size: 18px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (max-width: 767.98px) {
+  h4 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  h4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.icon-mobile-phone,
+.icon-email,
+.icon-facebook {
+  color: white;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  background-color: #f5f7fa;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 3px 9px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1212px) {
+  .wrapper {
+    max-width: 970px;
+    box-shadow: 3px 9px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 992.98px) {
+  .wrapper {
+    max-width: 750px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wrapper {
+    max-width: 450px;
+    padding: 0 10px;
+    user-select: none;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .wrapper {
+    max-width: 370px;
+    padding: 0 10px;
+  }
+}
+
+.container {
+  flex: 0 1 70%;
+  padding: 110px 90px 110px 90px;
+  position: relative;
+}
+
+@media (max-width: 1212px) {
+  .container {
+    padding: 60px 50px 60px 50px;
+  }
+}
+
+@media (max-width: 992.98px) {
+  .container {
+    padding: 40px 30px 40px 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    flex: 0 1 100%;
+    padding: 20px 15px 20px 15px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .container {
+    flex: 0 1 100%;
+    padding: 15px 10px;
+  }
+}
+
+.container .download {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  color: #000;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  text-transform: capitalize;
+  transform: scale(1.1);
+  transition: 800ms;
+}
+
+.container .download:hover {
+  background-color: #f05959;
+  color: #fff4f4;
+  font-weight: bold;
+  transition: 1s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1212px) {
+  .container .download {
+    right: 50px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 992.98px) {
+  .container .download {
+    right: 25px;
+    top: 30px;
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container .download {
+    display: none;
+  }
+}
+
+.container .download-m {
+  display: none;
+  right: 100px;
+  top: 50px;
+  color: #000;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  text-transform: capitalize;
+  transform: scale(1.1);
+  transition: 800ms;
+}
+
+.container .download-m:hover {
+  background-color: #f05959;
+  color: #fff4f4;
+  font-weight: bold;
+  transition: 1s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 767.98px) {
+  .container .download-m {
+    display: block;
+    padding: 4px;
+    font-size: 10px;
+    font-weight: 400;
+    position: static;
+    width: 65px;
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .container .download-m {
+    color: #fff;
+  }
+  .container .download-m:hover {
+    color: #fff;
+    background-color: rgba(240, 217, 42, 0.611);
+  }
+}
+
+.container .info-container {
+  margin-bottom: 65px;
+}
+
+@media (max-width: 479.98px) {
+  .container .info-container {
+    background-color: #1e2939;
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 5px;
+  }
+}
+
+.container .info-container .info-profession {
+  margin-bottom: 45px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 479.98px) {
+  .container .info-container .info-profession {
+    margin-bottom: 30px;
+  }
+}
+
+.container .info-container .info-name {
+  line-height: 89px;
+}
+
+@media (max-width: 992.98px) {
+  .container .info-container .info-name {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .container .info-container .info-name {
+    display: block;
+    width: 125px;
+    margin-bottom: 15px;
+  }
+}
+
+.container .info-container .info-discription {
+  margin-top: 24px;
+}
+
+@media (max-width: 767.98px) {
+  .container .info-container .info-discription {
+    display: none;
+  }
+}
+
+.container .info-container .info-foto {
+  display: none;
+  position: absolute;
+  top: 47px;
+  right: 3px;
+  width: 130px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 9px 16px rgba(36, 36, 36, 0.5);
+}
+
+@media (max-width: 767.98px) {
+  .container .info-container .info-foto {
+    display: block;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .container .info-container .info-foto {
+    right: 25px;
+    display: block;
+    width: 100px;
+    box-shadow: 3px 3px 5px rgba(197, 197, 197, 0.5);
+  }
+}
+
+.container .my-container {
+  margin-bottom: 55px;
+  position: relative;
+}
+
+@media (max-width: 992.98px) {
+  .container .my-container {
+    margin-bottom: 10px;
+  }
+}
+
+.container .my-container .education-title-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.container .my-container .education-icon {
+  width: 40px;
+  padding: 0 7px 0 0px;
+}
+
+.container .my-container .education-title {
+  align-self: center;
+}
+
+.container .my-container .education-title .projects-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.container .my-projects .project-item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-weight: 700;
+  margin: 7px 0 0 17px;
+}
+
+@media (max-width: 479.98px) {
+  .container .my-projects .project-item {
+    font-size: 14px;
+  }
+}
+
+.container .my-projects .project-item .projects-link {
+  flex: 0 1 40%;
+  line-height: 30px;
+}
+
+@media (max-width: 992.98px) {
+  .container .my-projects .project-item .projects-link {
+    flex: 0 1 45%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container .my-projects .project-item .projects-link {
+    flex: 0 1 45%;
+  }
+}
+
+.container .my-projects .project-item .dots {
+  flex: 0 1 10%;
+  margin-bottom: -10px;
+  border-bottom: 3px dotted #bebebe;
+}
+
+@media (max-width: 992.98px) {
+  .container .my-projects .project-item .dots {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container .my-projects .project-item .dots {
+    display: none;
+  }
+}
+
+.container .my-projects .project-item .project-tech {
+  flex: 0 0 32%;
+}
+
+@media (max-width: 767.98px) {
+  .container .my-projects .project-item .project-tech {
+    display: none;
+  }
+}
+
+.container .my-projects .project-item .project-tech .tech-name {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.container .my-projects .project-item .projects-btn {
+  flex: 0 1 7%;
+  text-align: center;
+  min-width: 50px;
+  border: 1px solid #6a6a6a;
+  border-radius: 5px;
+  padding: 1px 10px;
+  margin: 1px 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.container .my-projects .project-item .projects-btn:hover {
+  color: #f3f3f3;
+  background-color: #595959;
+  font-size: 16px;
+  margin: 0 5px;
+  transition: 300ms;
+}
+
+@media (max-width: 992.98px) {
+  .container .my-projects .project-item .projects-btn {
+    display: none;
+  }
+}
+
+.container .education {
+  position: relative;
+}
+
+.container .education .active .education-study01-block-a {
+  display: block;
+}
+
+.container .education-cont {
+  margin-bottom: 5px;
+}
+
+.container .education-cont .education-study01-wrapper,
+.container .education-cont .education-study02-wrapper,
+.container .education-cont .education-work01-wrapper,
+.container .education-cont .education-work02-wrapper,
+.container .education-cont .education-work03-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+  border: 1px solid #595959;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.container .education-cont .education-study01-wrapper .education-study01-item,
+.container .education-cont .education-study01-wrapper .education-study02-item,
+.container .education-cont .education-study01-wrapper .education-work01-item,
+.container .education-cont .education-study01-wrapper .education-work02-item,
+.container .education-cont .education-study01-wrapper .education-work03-item,
+.container .education-cont .education-study02-wrapper .education-study01-item,
+.container .education-cont .education-study02-wrapper .education-study02-item,
+.container .education-cont .education-study02-wrapper .education-work01-item,
+.container .education-cont .education-study02-wrapper .education-work02-item,
+.container .education-cont .education-study02-wrapper .education-work03-item,
+.container .education-cont .education-work01-wrapper .education-study01-item,
+.container .education-cont .education-work01-wrapper .education-study02-item,
+.container .education-cont .education-work01-wrapper .education-work01-item,
+.container .education-cont .education-work01-wrapper .education-work02-item,
+.container .education-cont .education-work01-wrapper .education-work03-item,
+.container .education-cont .education-work02-wrapper .education-study01-item,
+.container .education-cont .education-work02-wrapper .education-study02-item,
+.container .education-cont .education-work02-wrapper .education-work01-item,
+.container .education-cont .education-work02-wrapper .education-work02-item,
+.container .education-cont .education-work02-wrapper .education-work03-item,
+.container .education-cont .education-work03-wrapper .education-study01-item,
+.container .education-cont .education-work03-wrapper .education-study02-item,
+.container .education-cont .education-work03-wrapper .education-work01-item,
+.container .education-cont .education-work03-wrapper .education-work02-item,
+.container .education-cont .education-work03-wrapper .education-work03-item {
+  display: flex;
+}
+
+.container .education-cont .education-study01-wrapper .education-study01-item::before,
+.container .education-cont .education-study01-wrapper .education-study02-item::before,
+.container .education-cont .education-study01-wrapper .education-work01-item::before,
+.container .education-cont .education-study01-wrapper .education-work02-item::before,
+.container .education-cont .education-study01-wrapper .education-work03-item::before,
+.container .education-cont .education-study02-wrapper .education-study01-item::before,
+.container .education-cont .education-study02-wrapper .education-study02-item::before,
+.container .education-cont .education-study02-wrapper .education-work01-item::before,
+.container .education-cont .education-study02-wrapper .education-work02-item::before,
+.container .education-cont .education-study02-wrapper .education-work03-item::before,
+.container .education-cont .education-work01-wrapper .education-study01-item::before,
+.container .education-cont .education-work01-wrapper .education-study02-item::before,
+.container .education-cont .education-work01-wrapper .education-work01-item::before,
+.container .education-cont .education-work01-wrapper .education-work02-item::before,
+.container .education-cont .education-work01-wrapper .education-work03-item::before,
+.container .education-cont .education-work02-wrapper .education-study01-item::before,
+.container .education-cont .education-work02-wrapper .education-study02-item::before,
+.container .education-cont .education-work02-wrapper .education-work01-item::before,
+.container .education-cont .education-work02-wrapper .education-work02-item::before,
+.container .education-cont .education-work02-wrapper .education-work03-item::before,
+.container .education-cont .education-work03-wrapper .education-study01-item::before,
+.container .education-cont .education-work03-wrapper .education-study02-item::before,
+.container .education-cont .education-work03-wrapper .education-work01-item::before,
+.container .education-cont .education-work03-wrapper .education-work02-item::before,
+.container .education-cont .education-work03-wrapper .education-work03-item::before {
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 12px;
+  background-image: url(https://www.sigtarp.gov/SiteAssets/template/img/angle-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  right: 10px;
+}
+
+.container .education-cont .education-study01-wrapper .education-study01-item::before:active,
+.container .education-cont .education-study01-wrapper .education-study02-item::before:active,
+.container .education-cont .education-study01-wrapper .education-work01-item::before:active,
+.container .education-cont .education-study01-wrapper .education-work02-item::before:active,
+.container .education-cont .education-study01-wrapper .education-work03-item::before:active,
+.container .education-cont .education-study02-wrapper .education-study01-item::before:active,
+.container .education-cont .education-study02-wrapper .education-study02-item::before:active,
+.container .education-cont .education-study02-wrapper .education-work01-item::before:active,
+.container .education-cont .education-study02-wrapper .education-work02-item::before:active,
+.container .education-cont .education-study02-wrapper .education-work03-item::before:active,
+.container .education-cont .education-work01-wrapper .education-study01-item::before:active,
+.container .education-cont .education-work01-wrapper .education-study02-item::before:active,
+.container .education-cont .education-work01-wrapper .education-work01-item::before:active,
+.container .education-cont .education-work01-wrapper .education-work02-item::before:active,
+.container .education-cont .education-work01-wrapper .education-work03-item::before:active,
+.container .education-cont .education-work02-wrapper .education-study01-item::before:active,
+.container .education-cont .education-work02-wrapper .education-study02-item::before:active,
+.container .education-cont .education-work02-wrapper .education-work01-item::before:active,
+.container .education-cont .education-work02-wrapper .education-work02-item::before:active,
+.container .education-cont .education-work02-wrapper .education-work03-item::before:active,
+.container .education-cont .education-work03-wrapper .education-study01-item::before:active,
+.container .education-cont .education-work03-wrapper .education-study02-item::before:active,
+.container .education-cont .education-work03-wrapper .education-work01-item::before:active,
+.container .education-cont .education-work03-wrapper .education-work02-item::before:active,
+.container .education-cont .education-work03-wrapper .education-work03-item::before:active {
+  transform: rotate(270deg);
+}
+
+.container .education-cont .education-study01-wrapper .education-study01-item .education-study01-item-block,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-study02-item-block,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-work01-item-block,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-work02-item-block,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-work03-item-block,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-study01-item-block,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-study02-item-block,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-work01-item-block,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-work02-item-block,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-work03-item-block,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-study01-item-block,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-study02-item-block,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-work01-item-block,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-work02-item-block,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-work03-item-block,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-study01-item-block,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-study02-item-block,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-work01-item-block,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-work02-item-block,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-work03-item-block,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-study01-item-block,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-study02-item-block,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-work01-item-block,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-work02-item-block,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-work03-item-block,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-study01-item-block,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-study02-item-block,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-work01-item-block,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-work02-item-block,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-work03-item-block,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-study01-item-block,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-study02-item-block,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-work01-item-block,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-work02-item-block,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-work03-item-block,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-study01-item-block,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-study02-item-block,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-work01-item-block,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-work02-item-block,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-work03-item-block,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-study01-item-block,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-study02-item-block,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-work01-item-block,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-work02-item-block,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-work03-item-block,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-study01-item-block,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-study02-item-block,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-work01-item-block,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-work02-item-block,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-work03-item-block,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-study01-item-block,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-study02-item-block,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-work01-item-block,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-work02-item-block,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-work03-item-block,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-study01-item-block,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-study02-item-block,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-work01-item-block,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-work02-item-block,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-work03-item-block,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-study01-item-block,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-study02-item-block,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-work01-item-block,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-work02-item-block,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-work03-item-block,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-study01-item-block,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-study02-item-block,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-work01-item-block,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-work02-item-block,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-work03-item-block,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-study01-item-block,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-study02-item-block,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-work01-item-block,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-work02-item-block,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-work03-item-block,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-study01-item-block,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-study02-item-block,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-work01-item-block,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-work02-item-block,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-work03-item-block,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-study01-item-block,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-study02-item-block,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-work01-item-block,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-work02-item-block,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-work03-item-block,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-study01-item-block,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-study02-item-block,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-work01-item-block,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-work02-item-block,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-work03-item-block,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-study01-item-block,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-study02-item-block,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-work01-item-block,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-work02-item-block,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-work03-item-block,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-study01-item-block,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-study02-item-block,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-work01-item-block,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-work02-item-block,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-work03-item-block,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-study01-item-block,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-study02-item-block,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-work01-item-block,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-work02-item-block,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-work03-item-block,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-study01-item-block,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-study02-item-block,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-work01-item-block,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-work02-item-block,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-work03-item-block,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-study01-item-block,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-study02-item-block,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-work01-item-block,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-work02-item-block,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-work03-item-block,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-study01-item-block,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-study02-item-block,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-work01-item-block,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-work02-item-block,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-work03-item-block,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-study01-item-block,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-study02-item-block,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-work01-item-block,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-work02-item-block,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-work03-item-block {
+  padding: 0 10px;
+}
+
+.container .education-cont .education-study01-wrapper .education-study01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-study02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study01-wrapper .education-work03-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-study02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-study01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-study02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-work01-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-work02-item-block .profession-title,
+.container .education-cont .education-study02-wrapper .education-work03-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-study02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work01-wrapper .education-work03-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-study02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work02-wrapper .education-work03-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-study02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work01-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work02-item .education-work03-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-study01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-study02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-work01-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-work02-item-block .profession-title,
+.container .education-cont .education-work03-wrapper .education-work03-item .education-work03-item-block .profession-title {
+  margin: 5px 0;
+}
+
+.container .profession-company {
+  padding-bottom: 5px;
+}
+
+.container .profession-company .company-link {
+  display: block;
+  color: #ff7011;
+}
+
+.container .profession-company .company-link img {
+  width: 70px;
+  margin: -10px -5px;
+}
+
+.container .profession-company .link2 img {
+  width: 100px;
+  margin: 0 -5px;
+}
+
+.container .education-study01-block-a,
+.container .education-study02-block-a,
+.container .education-work01-block-a,
+.container .education-work02-block-a,
+.container .education-work03-block-a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #595959;
+  display: none;
+  margin-bottom: 15px;
+}
+
+.container .education-study01-block-a.active,
+.container .education-study02-block-a.active,
+.container .education-work01-block-a.active,
+.container .education-work02-block-a.active,
+.container .education-work03-block-a.active {
+  display: block;
+}
+
+.container .education-study01-block-a .education-study01-block-b,
+.container .education-study01-block-a .education-study02-block-b,
+.container .education-study01-block-a .education-work01-block-b,
+.container .education-study01-block-a .education-work02-block-b,
+.container .education-study01-block-a .education-work03-block-b,
+.container .education-study02-block-a .education-study01-block-b,
+.container .education-study02-block-a .education-study02-block-b,
+.container .education-study02-block-a .education-work01-block-b,
+.container .education-study02-block-a .education-work02-block-b,
+.container .education-study02-block-a .education-work03-block-b,
+.container .education-work01-block-a .education-study01-block-b,
+.container .education-work01-block-a .education-study02-block-b,
+.container .education-work01-block-a .education-work01-block-b,
+.container .education-work01-block-a .education-work02-block-b,
+.container .education-work01-block-a .education-work03-block-b,
+.container .education-work02-block-a .education-study01-block-b,
+.container .education-work02-block-a .education-study02-block-b,
+.container .education-work02-block-a .education-work01-block-b,
+.container .education-work02-block-a .education-work02-block-b,
+.container .education-work02-block-a .education-work03-block-b,
+.container .education-work03-block-a .education-study01-block-b,
+.container .education-work03-block-a .education-study02-block-b,
+.container .education-work03-block-a .education-work01-block-b,
+.container .education-work03-block-a .education-work02-block-b,
+.container .education-work03-block-a .education-work03-block-b {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 10px 0 0 10px;
+}
+
+.container .education-study01-block .profession-time,
+.container .education-study02-block .profession-time,
+.container .education-work01-block .profession-time,
+.container .education-work02-block .profession-time,
+.container .education-work03-block .profession-time {
+  color: #a8a8a8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.container .education-study01-block .profession-duties,
+.container .education-study02-block .profession-duties,
+.container .education-work01-block .profession-duties,
+.container .education-work02-block .profession-duties,
+.container .education-work03-block .profession-duties {
+  margin: 10px 0 10px 0;
+}
+
+.container .education-study01-block .profession-duties li,
+.container .education-study02-block .profession-duties li,
+.container .education-work01-block .profession-duties li,
+.container .education-work02-block .profession-duties li,
+.container .education-work03-block .profession-duties li {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+.container a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container .icon-bookmark-large-flat,
+.container .icon-skill-creativity {
+  font-size: 50px;
+}
+
+.sidebar {
+  flex: 0 1 30%;
+  padding: 40px 0;
+  background-color: #1e2939;
+}
+
+@media (max-width: 992.98px) {
+  .sidebar {
+    flex: 0 1 25%;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.contacts-container {
+  margin: 60px 40px 0;
+}
+
+@media (max-width: 992.98px) {
+  .contacts-container {
+    margin: 40px 20px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contacts-container {
+    margin: 15px 10px 0;
+  }
+}
+
+.contacts-main {
+  color: #fff;
+  padding-right: 10px;
+}
+
+.title-container {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contacts-links a {
+  color: #b3ca34;
+  text-decoration: none;
+}
+
+.my_foto {
+  width: 100%;
+  height: auto;
+}
+
+.skills-container {
+  margin: 55px 40px 0 40px;
+}
+
+@media (max-width: 992.98px) {
+  .skills-container {
+    margin: 30px 20px 0 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .skills-container {
+    margin: 15px 10px 0 10px;
+  }
+}
+
+.skills-item > li {
+  margin-left: 20px;
+  color: #ff6b08;
+}
+
+.skills-text {
+  color: #a6a8ad;
+}
+
+ol li {
+  counter-increment: initial;
+  line-height: 1;
+  margin-bottom: 10px;
+  list-style-position: inside;
+}

@@ -1,0 +1,140 @@
+@import "../base/perem";
+// Обнуляем отступы
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+// Указываем box sizing
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+// Выставляем основные настройки по-умолчанию для body
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	min-width: $minWidth;
+	position: relative;
+	width: 100%;
+	color: #000;
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+// Наследуем шрифты для инпутов и кнопок
+input,
+button,
+textarea,
+select {
+	font-family: $font-family;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+	color: $color1;
+}
+a:hover {
+	text-decoration: none;
+	color: $color1;
+}
+// Удаляем внутренние отступы и стандартную стилизацию для всех ul и il, у которых есть атрибут class
+ul[class],
+ol[class] {
+	margin: 0;
+	padding: 0;
+	// list-style: none;
+	li[class] {
+		// list-style: none;
+		margin: 0;
+	}
+}
+
+// Убираем внешние отступы
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+// Элементы a, у которых нет класса, сбрасываем до дефолтных стилей
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+// Упрощаем работу с изображениями
+img {
+	vertical-align: top;
+	max-width: 100%;
+	// display: block; - /* віключить vertical-align: top;*/
+}
+
+// Указываем понятную периодичность в потоке данных у article
+article > * + * {
+	margin-top: 1em;
+}
+
+// Удаляем все анимации и переходы для людей, которые предпочитают их не использовать
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+//-webkit-overflow-scrolling: touch;
+// animation-play-state: paused;
+
+// Оболочка
+// .wrapper {
+// 	widows: 100%;
+// 	min-height: 100%;
+// 	overflow: hidden;
+// 	&.loaded {
+// 	}
+// }

@@ -1,0 +1,7 @@
+// Настройка выпадающего окна при посощи jQuery
+
+$(document).ready(function () {
+	$('.education-title-item-wrapper').click(function (event) {
+		$(this).toggleClass('active').next().slideToggle(300);
+	});
+});

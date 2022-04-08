@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f5f7fa;
+	padding: 40px 20px;
+	@media (max-width: $md2+px) {
+		padding: 20px 15px;
+	}
+	@media (max-width: $md3+px) {
+		padding: 15px 10px;
+	}
+	@media (max-width: $md4+px) {
+		padding: 15px 5px;
+	}
+}
+h1 {
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 45px;
+	@media (max-width: $md1+px) {
+		font-size: 40px;
+	}
+	@media (max-width: $md2+px) {
+		font-size: 30px;
+	}
+	// @media (max-width: $md3+px) {
+	// 	font-size: 20px;
+	// }
+	// @media (max-width: $md4+px) {
+	// 	font-size: 18px;
+	// }
+}
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	@media (max-width: $md3+px) {
+		font-size: 20px;
+	}
+	@media (max-width: $md4+px) {
+		font-size: 16px;
+	}
+}
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	@media (max-width: $md3+px) {
+		font-size: 18px;
+		line-height: 16px;
+	}
+	@media (max-width: $md4+px) {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+h4 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	@media (max-width: $md3+px) {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	@media (max-width: $md4+px) {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
+
+h5 {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.icon-mobile-phone,
+.icon-email,
+.icon-facebook {
+	color: white;
+	font-size: 20px;
+}

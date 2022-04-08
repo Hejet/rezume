@@ -1,0 +1,30 @@
+@import "../base/perem";
+
+//<Основаня сетка>
+.wrapper {
+	display: flex;
+	background-color: #f5f7fa;
+	max-width: $mw + px;
+	margin: 0 auto;
+	width: 100%;
+	box-shadow: 3px 9px 20px rgba(0, 0, 0, 0.3);
+
+	@media (max-width: $md1+px) {
+		max-width: 970px;
+		box-shadow: 3px 9px 15px rgba(0, 0, 0, 0.3);
+	}
+	@media (max-width: $md2+px) {
+		max-width: 750px;
+		padding: 0 10px;
+	}
+	@media (max-width: $md3+px) {
+		max-width: 450px;
+		padding: 0 10px;
+		user-select: none;
+	}
+	@media (max-width: $md4+px) {
+		max-width: 370px;
+		padding: 0 10px;
+	}
+}
+//</Основаня сетка>
