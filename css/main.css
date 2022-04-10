@@ -1168,6 +1168,12 @@ h5 {
   }
 }
 
+.skills-container a {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+
 .skills-item > li {
   margin-left: 20px;
   color: #ff6b08;
