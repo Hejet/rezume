@@ -249,6 +249,12 @@
         }
     }
     .education {
+        a {
+            img {
+                width: 350px;
+                margin: 5px 12px;
+            }
+        }
         position: relative;
         .active {
             .education-study01-block-a {

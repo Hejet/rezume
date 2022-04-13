@@ -618,6 +618,11 @@ h5 {
   position: relative;
 }
 
+.container .education a img {
+  width: 350px;
+  margin: 5px 12px;
+}
+
 .container .education .active .education-study01-block-a {
   display: block;
 }
