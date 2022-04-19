@@ -3,10 +3,10 @@
     padding: 110px 90px 110px 90px;
     position: relative;
     @media (max-width: $md1+px) {
-        padding: 60px 50px 60px 50px;
+        padding: 40px 40px 40px 30px;
     }
     @media (max-width: $md2+px) {
-        padding: 40px 30px 40px 30px;
+        padding: 40px 30px 40px 20px;
     }
     @media (max-width: $md3+px) {
         flex: 0 1 100%;
@@ -182,27 +182,31 @@
         // prof-info
     }
     .my-projects {
+        h3 {
+            margin: 15px;
+        }
         .project-item {
             display: flex;
             flex-flow: row nowrap;
+            justify-content: space-between;
             align-items: center;
             font-weight: 700;
-            margin: 7px 0 0 17px;
+            margin: 0 0 0 17px;
             @media (max-width: $md4+px) {
                 font-size: 14px;
             }
             .projects-link {
-                flex: 0 1 40%;
+                //flex: 1 0 0%;
                 line-height: 30px;
                 @media (max-width: $md2+px) {
-                    flex: 0 1 50%;
+                    //flex: 0 1 50%;
                 }
                 @media (max-width: $md3+px) {
                     flex: 1 1 60%;
                 }
             }
             .dots {
-                flex: 0 1 10%;
+                flex: 1 1 0%;
                 margin-bottom: -10px;
                 border-bottom: 3px dotted #bebebe;
                 @media (max-width: $md2+px) {
@@ -214,8 +218,11 @@
             }
 
             .project-tech {
-                flex: 0 0 42%;
+                // flex: 0 0 42%;
                 @media (max-width: $md3+px) {
+                    display: none;
+                }
+                @media (max-width: $md2+px) {
                     display: none;
                 }
                 .tech-name {
@@ -232,7 +239,7 @@
                 border: 1px solid #6a6a6a;
                 border-radius: 5px;
                 padding: 1px 10px;
-                margin: 1px 5px;
+                margin: 1px 5px 1px 1px;
                 font-size: 14px;
                 text-transform: uppercase;
                 &:hover {
@@ -365,7 +372,7 @@
         .profession-time {
             color: #a8a8a8;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 600;
             line-height: 20px;
         }
         .profession-duties {
@@ -374,7 +381,7 @@
         .profession-duties li {
             color: $color1;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 600;
             line-height: 24px;
             margin-left: 15px;
         }

@@ -611,6 +611,9 @@ h5 {
   .container .my-projects .project-item .projects-btn {
     display: none;
   }
+  .container .my-projects .project-item .project-tech {
+    display: none;
+  }
 }
 
 .container .education {
@@ -631,7 +634,10 @@ h5 {
   text-align: left;
 }
 
-.container .education .education-title-item-wrapper .education-title-item::before {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item::before {
   position: absolute;
   content: "";
   width: 22px;
@@ -644,33 +650,70 @@ h5 {
   transform: rotate(0deg);
 }
 
-.container .education .education-title-item-wrapper .education-title-item::before:active {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item::before:active {
   transform: rotate(270deg);
 }
 
-.container .education .education-title-item-wrapper .education-title-item .education-title-item-block {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item
+  .education-title-item-block {
   padding: 0 10px;
 }
 
-.container .education .education-title-item-wrapper .education-title-item .education-title-item-block .profession-title {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item
+  .education-title-item-block
+  .profession-title {
   margin: 10px 0 10px 0;
 }
 
-.container .education .education-title-item-wrapper .education-title-item .education-title-item-block .profession-company {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item
+  .education-title-item-block
+  .profession-company {
   padding-bottom: 10px;
 }
 
-.container .education .education-title-item-wrapper .education-title-item .education-title-item-block .profession-company .company-link {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item
+  .education-title-item-block
+  .profession-company
+  .company-link {
   display: block;
   color: #ff7011;
 }
 
-.container .education .education-title-item-wrapper .education-title-item .education-title-item-block .profession-company .company-link img {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item
+  .education-title-item-block
+  .profession-company
+  .company-link
+  img {
   width: 70px;
   margin: -10px -5px;
 }
 
-.container .education .education-title-item-wrapper .education-title-item .education-title-item-block .profession-company .link2 img {
+.container
+  .education
+  .education-title-item-wrapper
+  .education-title-item
+  .education-title-item-block
+  .profession-company
+  .link2
+  img {
   width: 100px;
   margin: 0 -5px;
 }
@@ -689,18 +732,31 @@ h5 {
   padding: 10px 0 0 10px;
 }
 
-.container .education-text-block-a .education-text-block-b .education-text-block .profession-time {
+.container
+  .education-text-block-a
+  .education-text-block-b
+  .education-text-block
+  .profession-time {
   color: #a8a8a8;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
 
-.container .education-text-block-a .education-text-block-b .education-text-block .profession-duties {
+.container
+  .education-text-block-a
+  .education-text-block-b
+  .education-text-block
+  .profession-duties {
   margin: 10px 0 10px 0;
 }
 
-.container .education-text-block-a .education-text-block-b .education-text-block .profession-duties li {
+.container
+  .education-text-block-a
+  .education-text-block-b
+  .education-text-block
+  .profession-duties
+  li {
   color: #595959;
   font-size: 14px;
   font-weight: 400;
